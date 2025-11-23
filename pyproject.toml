@@ -5,7 +5,6 @@ description = "Sentiment analysis of Yelp food reviews using CNN and LSTM."
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
 dependencies = [
-  "gensim @ git+https://github.com/RaRe-Technologies/gensim.git",
   "ipykernel>=6.30.1",
   "matplotlib>=3.8,<3.10",
   "nltk>=3.9.2",
@@ -13,7 +12,5 @@ dependencies = [
   "numpy>=1.26.0,<2.0",
   "pandas>=2.2.2",
   "scikit-learn>=1.4,<1.6",
-  "scipy>=1.13.1",
   "tensorflow[and-cuda]>=2.15.0",
-  "tqdm>=4.67.1",
 ]
